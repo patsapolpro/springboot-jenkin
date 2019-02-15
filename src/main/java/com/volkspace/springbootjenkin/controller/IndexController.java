@@ -13,7 +13,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(ModelMap model) {
-        String hello = "Hello, Volk Swagen #2";
+        String hello = "Hello, Volk Swagen #3";
         model.addAttribute("hello", hello);
         return "index";
     }
